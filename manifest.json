@@ -3,6 +3,7 @@
   "category": "Authentication",
   "icon": "shield-lock",
   "requires": ["prisma"],
+  "tags": ["auth", "better-auth", "security", "backend"],
   "dependencies": {
     "better-auth": "^1.0.0"
   },
