@@ -1,0 +1,24 @@
+{
+  "id": "better-auth",
+  "requires": ["prisma"],
+  "dependencies": {
+    "better-auth": "^1.0.0"
+  },
+  "addedFiles": [
+    {
+      "source": "auth.ts",
+      "target": "apps/api/src/auth.ts"
+    },
+    {
+      "source": "sign-up.ts",
+      "target": "apps/api/src/sign-up.ts"
+    }
+  ],
+  "replacements": [
+    {
+      "targetFile": "apps/api/src/server.ts",
+      "placeholder": "// __FS_INJECT_IMPORT__",
+      "value": "import { auth } from './auth';"
+    }
+  ]
+}
