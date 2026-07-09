@@ -1,16 +1,18 @@
 {
-  "id": "better-auth",
+  "title": "Better Auth integration",
+  "category": "Authentication",
+  "icon": "shield-lock",
   "requires": ["prisma"],
   "dependencies": {
     "better-auth": "^1.0.0"
   },
   "addedFiles": [
     {
-      "source": "auth.ts",
+      "source": "files/auth.ts", 
       "target": "apps/api/src/auth.ts"
     },
     {
-      "source": "sign-up.ts",
+      "source": "files/sign-up.ts",
       "target": "apps/api/src/sign-up.ts"
     }
   ],
