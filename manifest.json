@@ -9,11 +9,11 @@
   },
   "addedFiles": [
     {
-      "source": "files/auth.ts", 
+      "source": "auth.ts", 
       "target": "apps/api/src/auth.ts"
     },
     {
-      "source": "files/sign-up.ts",
+      "source": "sign-up.ts",
       "target": "apps/api/src/sign-up.ts"
     }
   ],
