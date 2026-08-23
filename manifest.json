@@ -2,7 +2,7 @@
   "title": "Better Auth integration",
   "category": "Authentication",
   "icon": "shield-lock",
-  "requires": ["mikhieiulianov/ctx-prs"],
+  "requires": ["custom-blocks/ctx-prs"]
   "tags": ["auth", "better-auth", "security", "backend"],
   "dependencies": {
     "better-auth": "^1.0.0"
