@@ -2,6 +2,7 @@
   "title": "Better Auth integration",
   "category": "Authentication",
   "icon": "shield-lock",
+  "description": "Adds Better Auth configuration, client helpers, and example authentication flows.",
   "requires": ["custom-blocks/ctx-prs"],
   "tags": ["auth", "better-auth", "security", "backend"],
   "dependencies": {
